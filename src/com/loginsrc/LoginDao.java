@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;  
 import java.sql.ResultSet;  
 import java.sql.SQLException;  
+
+// This is a class for Login
   
 public class LoginDao {  
     public static boolean validate(String name, String pass) {          
